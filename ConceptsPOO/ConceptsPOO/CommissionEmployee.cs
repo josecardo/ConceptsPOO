@@ -9,7 +9,6 @@
         {
             return Sales * (decimal)CommisionPercentaje;
         }
-
         public override string ToString()
         {
             return $"{base.ToString()}" +
